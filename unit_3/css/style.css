@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	background: url("images/monument.jpg");
+	background-size: cover;
+	color: #000;
+	font-family: Times;
+}
+img {
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	border: none;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+
+.subtitle {
+	font-weight: bold;
+}
+
+hr {
+  width: 300px;
+  font-weight: bold;
+}
+
+#contact {
+	font-style: italic;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin-right: 450px;
+    margin-left: 440px;
+}
