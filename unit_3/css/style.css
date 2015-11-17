@@ -1,17 +1,14 @@
 body {
 	text-align: center;
-	background: url("images/monument.jpg");
+	background: url("../images/monument.jpg");
 	background-size: cover;
-	color: #000;
+	color: #fff;
 	font-family: Times;
-}
-img {
-    opacity: 0.8;
-    filter: alpha(opacity=40);
+	opacity: 0.8;
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 64px;
 	font-weight: bold;
 }
 
@@ -38,6 +35,11 @@ hr {
 
 #contact {
 	font-style: italic;
+	border: none;
+    margin-top: 400px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 ul {
