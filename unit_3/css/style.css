@@ -1,15 +1,25 @@
 body {
 	text-align: center;
 	background: url("../images/monument.jpg");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	color: #fff;
 	font-family: Times;
 	opacity: 0.8;
+	background-color: #D2D7D3;
+}
+
+nav {
+	font-weight: bold;
+	word-spacing: 100px;
+	font-size: 14px
 }
 
 h1 {
 	font-size: 64px;
 	font-weight: bold;
+	padding: 40px;
+	margin-top: 400px;
 }
 
 h2 {
@@ -18,10 +28,11 @@ h2 {
 	font-weight: bold;
 	text-decoration: underline;
 	border: none;
-    margin-top: 100px;
+    margin-top: 400px;
     margin-bottom: 0px;
     margin-right: 450px;
     margin-left: 450px;
+    color: #000;
 }
 
 .subtitle {
@@ -33,10 +44,10 @@ hr {
   font-weight: bold;
 }
 
-#contact {
+footer {
 	font-style: italic;
 	border: none;
-    margin-top: 400px;
+    margin-top: 100px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
@@ -50,4 +61,5 @@ ul {
     margin-bottom: 200px;
     margin-right: 450px;
     margin-left: 440px;
+    color: #000;
 }
