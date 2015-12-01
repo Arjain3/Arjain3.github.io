@@ -3,7 +3,7 @@
 body {
 	text-align: center;
 	background: url("../images/newyork.jpeg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
 	font-family: Times;
