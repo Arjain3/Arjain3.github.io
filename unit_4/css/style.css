@@ -2,12 +2,11 @@
 
 body {
 	text-align: center;
-	background: url("../images/monument.jpg");
+	background: url("../images/newyork.jpeg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	color: #fff;
 	font-family: Times;
-	opacity: 0.8;
 	background-color: #D2D7D3;
 }
 
@@ -19,16 +18,16 @@ nav {
 
 h1 {
 	font-size: 64px;
-	font-weight: bold;
+	color: #000;
 	padding: 40px;
-	margin-top: 400px;
+	margin-top: 40px;
 	font-family: 'Playfair Display SC', serif;
 }
 
 h2 {
 	text-align: center;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: black;
 	text-decoration: underline;
 	border: none;
     margin-top: 400px;
@@ -40,6 +39,8 @@ h2 {
 
 .subtitle {
 	font-weight: bold;
+	margin-top: 250px;
+	color: #fff;
 }
 
 hr {
