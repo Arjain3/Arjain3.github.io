@@ -1,17 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:700italic);
 
+
 body {
 	text-align: center;
-	color: #fff;
+	color: #000;
 	font-family: Times;
-	background-color: #D2D7D3;
-	margin: 0;
+	background-color: #fff;
+	margin: 0px;
+	font-size: 64px;
 }
 
 nav {
 	font-weight: bold;
 	word-spacing: 100px;
-	font-size: 14px;
+	font-size: .25em;
 	position: fixed;
 	width: 100%;
 }
@@ -20,39 +22,56 @@ header {
 	background: url("../images/newyork.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 }
 
+#blurb {
+	font-size: .25em;
+
+}
 h1 {
-	font-size: 64px;
+	font-size: 1em;
 	color: #000;
 	padding: 40px;
 	margin-top: 40px;
 	font-family: 'Playfair Display SC', serif;
 }
 
-h2 {
+h2, h4 {
 	text-align: center;
-	font-size: 18px;
+	font-size: .5em;
 	font-weight: black;
 	text-decoration: underline;
 	border: none;
-    margin-top: 400px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     margin-right: 450px;
     margin-left: 450px;
     color: #000;
+}
+
+#right {
+	text-align: center;
+	font-size: .5em;
+	font-weight: black;
+}
+
+#slogan {
+	font-size: .5em;
+	color: #fff;
 }
 
 .subtitle {
 	font-weight: bold;
 	margin-top: 250px;
 	color: #fff;
+	font-size: .5em;
 }
 
 hr {
   width: 300px;
   font-weight: bold;
+  font-size: .5em;
 }
 
 footer {
@@ -62,9 +81,31 @@ footer {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    font-size: .25em;
+    color: #fff;
 }
 
-ul {
+#Company, #jobtitle, #jobdate {
+	font-size: .25em;
+	font-weight: bold;
+	text-align: left;
+}
+
+#description {
+	font-size: .25em;
+	text-align: left;
+}
+
+@media only screen and (max-width: 615px) {
+	nav {
+		position: fixed;
+		width: 100%;
+	}
+	h2, h4 {
+		text-align: left;
+	}
+
+/*ul {
     text-align: center;
     list-style-type: none;
     border: none;
@@ -73,4 +114,4 @@ ul {
     margin-right: 450px;
     margin-left: 440px;
     color: #000;
-}
+}*/
